@@ -1,4 +1,17 @@
-<h1>jQuery Code Hinting and Autocompletion in Notepad++</h1>
+<h1>jQuery Code Hinting, Autocompletion, and Syntax Highlighting in Notepad++</h1>
+
+<h3>Plan for this fork</h3>
+<p>
+Extend syntax highlighting to match <a href="https://github.com/BriceShatzer/Npp-Personalizations.git">darkTheme</a>.
+</p>
+<dl>
+<dt>jquery-extended.xml</dt>
+<dd>Currently highlights keywords that are included in the auto-complete process (defined in "jquery.xml", listed in "jQuery_autocomplete_ word-list.html"). Plan is to add slighly different syntax highlighting for vanilla  javascript methods which are in the included pdf ("javascript cheat sheet.pdf"). Ultimately, this file will be merged with/replace "userDefineLang_jQuery.xml"</dd></dl>
+<br>
+<p>
+**orginal README starts here**
+</p>
+<br>
 
 This project consists of user-defined language files for the <a href="http://notepad-plus-plus.org/" target="_blank">Notepad++ source code editor</a> designed to add code hinting and autocompletion for jQuery methods.
 
